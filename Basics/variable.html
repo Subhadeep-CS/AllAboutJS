@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Introduction of variable
+
+        Variable refer to a certain memory location where we can store some data and
+        accesed as per our requirement.
+
+        In javascript there are three way to declare a variable
+
+        1.Using var keyword
+
+        2.Using let keyword(introduced in ES6)
+
+        3.Using const keyword(introduced in ES6)
+
+        ES6 concept cover in later.
+
+        Here we see variable declaration using var keyword.
+
+        Here's two concept one is
+
+        1.Variable declration:-A procedure for allocating memory space for variable so that
+        data element of specific type can be store and accssed during the execution of the
+        program.
+
+        Syntax=> var variable_name;
+
+        2.Variable initialization:- A procedure to store the specified type of value
+        within a variable
+
+        Syntax=> variable_name=data;
+
+        3.Variable defination:- When we decalare a variable and initialize it in same time
+        that's called variable defination
+
+        Syntax=> var variable_name=data;
+
+        Some facts about variable
+
+        1.If we does not perform initialization after declertion then javascript store
+        a special keyword in it called undefined.
+
+        Now if you want to perfrom any mathematical operation on it,the result turn into
+        NaN(Not a number).
+
+        2. variable name is case-sensitive firstName and firstname is not same.
+
+        3.Naming convention of variable is always write in camal-case.
+
+        4.Javascript reserved keyword does not use as variable.
+
+        5.Must begig with letter,$,_
+
+        6. Only letter,_,$ and digits permisible.
+     -->
+     <script>
+        var a; //variable decleration
+        a=10; //variable initialization
+        var b=10; //variable defination
+        var c; // you will get undefined in the console
+        var d=c+10; // you will get NaN
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        console.log(d);
+    </script>
+</body>
+</html>
