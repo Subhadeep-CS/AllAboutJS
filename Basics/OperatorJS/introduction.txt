@@ -1,0 +1,44 @@
+What is operator?
+
+Operator is a special symbol that tells the compiler to perfrom some specific task.
+
+What is operand?
+
+In which we can apply operator that's called operand.
+
+What is expression?
+
+combination of operator and operand we can make a expression.
+
+Types of operator:-
+
+Based on the operand we can divide in three category.
+
+1.Uniary operator=>
+
+It's the operator which is applicable on one operand only.
+
+Syntax:-
+
+operand++
+
+example, increament(++) and decreament(--) operator
+
+2.Binary operator=>
+
+It's the operator which is applicable on two operand.
+
+Syntax:-
+
+operand + operand
+
+example=>
+
+arithmetic operator
+logical operator
+
+3.Ternary operator
+
+It's applicable on three operand.
+
+conditional operator.

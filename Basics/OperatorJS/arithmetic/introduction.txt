@@ -1,0 +1,12 @@
+Arithmetic operator
+
+To perfrom some arithmetic operation with operand,we use arithmetic operator.Arithmetic operator is a binary operator,means It can take two operand and perfrom the operation.
+
+List of arithmetic operator available in javascript.
+
+1.Addition(+)
+2.Substraction(-)
+3.Multiplication(*)
+4.Division(/)
+5.exponential(**) <introduced in ES6>
+6.modulus(%) <you get reminder by using modulo operator>
