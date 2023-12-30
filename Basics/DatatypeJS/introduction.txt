@@ -1,0 +1,66 @@
+What is datatype?
+
+Datatype represent the type of data.
+
+There are 7 datatype available in javascript.We list it categorically.
+
+1.Basic Datatype=>
+
+1.Number=> All type of Number.
+
+2.Boolean=> It's represent the boolean value. true and false.
+
+3.String=> It's represent the string.
+
+4.BigInt(introduced in ES6)
+
+5.Symbol(introduced in ES6).
+
+2.Composite type or Reference type=>
+
+Object
+
+3.Special datatype=>
+
+1.undefined
+
+2.null.
+
+Inside the datatype.js file we can see the example of all datatype.
+
+typeof operator=> It will return the type of the variable as a string.
+
+syntax=>
+
+typeof variable_name;
+
+Now what is undefined?
+
+Actually,undefined is the property of the global object.Now we now the global object is
+window.
+
+if we do console.log(window.undefined); then we accessed the property.
+
+Now, when we declare a variable but didnot assign the variable then JS engine store
+that undefined in it.
+
+What is BigInt?
+
+BigInt comes into picture in ES6 edition of javascript.
+
+Actually, Number datatype needs 64bit memory to store the data.
+
+for this we need to know the max_safe integer we have a property in number class.
+
+we get 9007199254740991 this,if we need big data then we use BigInt datatype,
+
+var n=123n; //that's the way to define a bigInt data.
+
+In,Bigint.js file we show that.
+
+Facts about datatype:-
+
+For all the datatype,in javascript a sperate copy of built-int object is available.
+that's called wrapper object.
+
+When we want to acces those property of object,js engine automatically converted primitive to that object. 
