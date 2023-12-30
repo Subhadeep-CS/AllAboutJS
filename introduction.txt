@@ -1,0 +1,7 @@
+What is javascript?
+
+javascript is synchronous and single threaded programing language.
+
+synchronous means it's executes code line by line.
+
+single threaded means js executes one line at a time and after finising the execution it's goes to second line.
