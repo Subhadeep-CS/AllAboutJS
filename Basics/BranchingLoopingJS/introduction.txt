@@ -1,0 +1,13 @@
+What is Decision making statement?
+
+Decision making statement are the statement by which we can change the flow of execution
+of the program.
+
+The most-popular decision making statement is:-
+
+1.if statement
+2.switch statement
+3.conditional operator or ternary operator
+4.goto statement
+
+That's also know as Branching statement.
