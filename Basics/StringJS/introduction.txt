@@ -1,0 +1,155 @@
+What is String?
+
+String is sequence of character enclosed by single and double quote.
+
+How we can declare a string?
+
+var string_name;
+let string_name;
+const string_name;
+
+How we can initialize a string?
+
+var string_name="String";
+let string_name="Ram";
+const string_name='Jodu';
+
+String Indexing:-
+
+Every character in string denoted by a special character pr special integer value,called index value.
+
+Now,javascript follows 0-based indexing means that start character always at 0th index and the end character always at length-1 index.
+
+How do I get length of the string?
+
+String is also a built in object Inside the javascript,there is a property called length by using that length property we can find the length of the string.
+
+example=>
+
+var s="String";
+console.log(s.length); // we get 6 in console.
+
+How do I access character in string?
+
+var s="String";
+
+we can access each character in string by using index number.
+
+console.log(s[1]); // it will print t in console
+
+Facts about string
+
+1.First index value is always 0.
+
+2 Last index value is always length-1.
+
+Inside the string.js we demonstrate all the concepts
+
+Task 1:- Printing all character of string using for loop.
+code=>all_char.js
+
+String Immutability:-
+
+In javascript,string is immutable in nature means once we created a string,we cannot change or modifiy value of string without initialize it.
+
+for example
+
+if we declare a string s
+
+var s="String";
+
+now we apply a method on the string.
+
+s.toUpperCase(); 
+
+Now,it does not change the value of the string.but if we assign it then it will change it's value.
+
+s=s.toUpperCase(); it will change the value.
+
+That's the prove of immutability natue in javascript string.
+
+inside the immutable.js we demonstrate immutability natue of string.
+
+How to convert number to string?
+
+There are to ways to convert a number to string.
+
+1. By adding a empty string with number.
+
+example 
+
+var a=123;
+console.log(typeof a); // we get number in console
+a=123+" ";
+console.log(typeof a); // we get string in console
+
+2. By using wrapper object(String)
+
+var a=123;
+console.log(typeof a); //we get number
+a=String(a);
+console.log(typeof a); //we get string
+
+How to convert string to number?
+
+1. By adding + operator before the string we can convert string to number.
+
+var s="122";
+console.log(typeof s); //we get string
+s=+s;
+console.log(typeof s); //we get number
+
+2.By using Number wrapper object we convert string to number.
+
+var s="123";
+console.log(typeof s); //we get string
+s=Number(s);
+console.log(typeof s); // we get number
+
+We demonstrate this in num_string.js file
+
+
+How to concatinating multiple string?
+
+There are two ways to concatinating the string:-
+
+1.By using + operator we can concatinating string.
+
+var s="Subhadeep";
+
+var a="My name is: ";
+
+var d=a+s;
+
+console.log(d);
+
+2.By using concat() method
+
+concat() a immutating method. I will concat() multiple string and built a new string.
+
+syntax:-
+
+string_name.concat(string1,.......,stringN);
+var s="Subhadeep";
+
+var a="My name is: ";
+s.concat(a);
+var d=d.concat(s,a);
+
+concat.js we demonstrate the concepts of concating
+
+Is the string is object or primitive?
+
+We all know that string is primitive but if the string is primitive the how we can access the length property.
+
+Actually what happend inside, we all now that for all datatype a sperate copy of built in object is available in global object.
+
+when we do s.length, then js engine internally converted into a temporary string to object then perform all operation and after that it destroy that temporary string.
+
+Template String:-
+
+Template literals is the literals enclosed by bactics(``). allowing multiline string and we can embed expression inside it by using ${} inside the parathesis, we put the expression.
+
+example=> template.js file
+
+
