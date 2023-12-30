@@ -1,0 +1,70 @@
+What is variable?
+
+Variable refer to certain memory location where we can store some data and accessed 
+through out the execution of the program.
+
+Why we need variable?
+
+To store some information or to some data we need variable.
+
+Variable Declaration:- Variable Declaration is procedure of allocating memory for the variable where we can store our data.
+
+There are three technique to define variable in javascript.
+
+1. Using var keyword:- 
+
+It's the most old technique to define a variable.
+
+syntax:-
+
+var variable_name;
+
+2. Using let keyword:-
+
+This technique coming to ES6 version of javascript.
+
+syntax:-
+
+let variable_name;
+
+3.Using const keyword:-
+
+syntax:-
+
+const variable_name;
+
+Variable intialization:-
+
+Variable intialization is a procedure to intialize some value to our respective variable.
+
+syntax:-
+
+ variable_name=value;
+
+Variable Defination:-
+
+When we are perfrom variable Declaration and variable intialization in same line then that's called variable Defination.
+
+syntax:-
+
+var variable_name=value;
+
+Sample code=>
+
+See the variable.js file
+
+Variable Naming Convention:-
+
+1. Only A-Z,a-z,0-9 and $,_ valid character for variable.
+
+2. Cannot start with digits.
+
+3. We cannot use reserved keyword as a variable name.
+
+4. Always use camal-case for variable name.
+
+Facts about variable:-
+
+When we declare a variable but not intialize yet,javascript store a special keyword in it called undefined,if we perfrom any mathematical operation in it we get NaN(Not a number).
+
+In the variable.js file we demonstrate it.
